@@ -1,0 +1,594 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  main {
+    background-image: url(./assets/hero-banner.webp);
+    height: 290px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    max-width: unset;
+  }
+  header {
+    height: 70px;
+    width: 100%;
+    border: 2px solid;
+    background-color: black;
+    
+  }
+  #header_left img {
+    height: 30px;
+  }
+  
+  #header_left {
+    color: white;
+    display: flex;
+    justify-content: start;
+    gap: 4%;
+    align-items: center;
+    margin-top: 1.5%;
+    margin-left: 1%;
+    width: 700px;
+  }
+  #header_right {
+    float: right;
+    margin-top: -3%;
+    margin-right: 1%;
+    width: 300px;
+  }
+  #header_right button {
+    color: white;
+    background: rgba(255, 255, 255, 0.17);
+    padding: 14px 12px;
+    line-height: 16px;
+    font-family: "gentonabook";
+    display: inline-block;
+    border: none;
+    text-align: center;
+  }
+  #header_right i {
+    margin-top: 3%;
+    float: right;
+  }
+  
+  .section_1 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 350px;
+    margin-left: 16%;
+    margin-top: 6%;
+    padding: 12px;
+    background-color: #fff;
+    color: #000;
+  }
+  .section_2 {
+    width: 860px;
+    height: 110px;
+    margin-left: 16%;
+    position: absolute;
+    top: 32%;
+    background-color: #f2f4f6;
+  }
+  #CL {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: 26%;
+    padding: 18px;
+    align-items: center;
+    background: #fff;
+    position: relative;
+    margin-left: 4%;
+    margin-right: 3%;
+    margin-top: 3%;
+  }
+  #EL {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: 26%;
+    padding: 18px;
+    align-items: center;
+    background: #fff;
+  }
+  #CL::placeholder {
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    line-height: 27px;
+  }
+  #EL::placeholder {
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    line-height: 27px;
+  }
+  #search {
+    border: 1px solid;
+    height: 52px;
+    width: 30%;
+    float: right;
+    margin-top: 3.1%;
+    position: relative;
+    right: 6%;
+    background: url(https://s3-ap-southeast-1.amazonaws.com/ola-prod-website/ola_cabs_back.svg)
+        no-repeat bottom,
+      radial-gradient(
+        127.68% 2996.56% at 12.65% 127.68%,
+        #000000 0%,
+        #222222 100%
+      );
+    color: #fff;
+    border-radius: 0px;
+    font-size: 17px;
+    text-align: left;
+    padding: 17px;
+    box-shadow: -3px 3px 0 #32c86e;
+    border: none;
+  }
+  .section_3 {
+    height: 130px;
+    width: 860px;
+    margin-left: 16%;
+    margin-top: 5%;
+  }
+  .section_3 img {
+    height: 130px;
+    width: 860px;
+  }
+  h2 {
+    margin-top: 10%;
+    font-size: 45px;
+    text-align: center;
+    text-shadow: 1.152px 1.152px 0 #fff, 1.728px 1.728px 0 #92c83e;
+  }
+  .container_1 {
+    margin-top: 20%;
+    height: 500px;
+    width: 860px;
+    display: flex;
+    justify-content: space-evenly;
+  
+    margin-left: 16%;
+  }
+  .container_1 div {
+    height: 500px;
+    width: 200px;
+    text-align: center;
+  }
+  .container_1 div > img {
+    height: 150px;
+    width: 150px;
+  }
+  #h1 {
+    letter-spacing: -1px;
+    color: #000000;
+    margin: 10px 0;
+    font-size: 40px;
+    font-family: "gentonamedium";
+    line-height: 48px;
+    margin-top: -2%;
+  }
+  p {
+    color: rgb(33 32 38 / 64%);
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 1;
+  }
+  .container_2 {
+    height: 500px;
+    width: 860px;
+    margin-left: 16%;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+  }
+  #h2 {
+    text-align: start;
+    margin-left: 16%;
+    font-size: 45px;
+    text-shadow: 1.152px 1.152px 0 #fff, 1.728px 1.728px 0 #92c83e;
+  }
+  
+  .container_2 div {
+    width: 300px;
+  }
+  .container_2 div > img {
+    height: 200px;
+    width: 300px;
+  }
+  h3 {
+    font-weight: 500;
+    color: rgb(33 32 38 / 64%);
+  }
+  .container_3 {
+    height: 600px;
+    width: 460px;
+    margin-left: 16%;
+    display: flex;
+    gap: 10%;
+  }
+  aside {
+    padding: 50px;
+  }
+  hr {
+    height: 140px;
+    width: 5px;
+    position: relative;
+    left: -10%;
+    top: 3%;
+    background-color: #32c86e;
+  }
+  #H1 {
+    margin-top: -55%;
+  }
+  P {
+    margin-top: 7%;
+  }
+  .container_4 {
+    height: 900px;
+    background: rgb(241, 246, 233);
+    transform: skewY(-2deg);
+  }
+  #H2 {
+    text-align: left;
+    position: relative;
+    top: 10%;
+    left: 15%;
+    height: 120px;
+    width: 400px;
+    text-shadow: 1.152px 1.152px 0 #fff, 1.728px 1.728px 0 #92c83e;
+    transform: skewY(2deg);
+  }
+  .container_4 img {
+    height: 250px;
+    width: 450px;
+    transform: skewY(2deg);
+    position: relative;
+    left: 15%;
+    top: 10%;
+  }
+  #img1 {
+    height: 260px;
+    width: 450px;
+    transform: skewY(2deg);
+    position: relative;
+    left: 18%;
+    top: 13%;
+  }
+  #DIV {
+    transform: skewY(2deg);
+    height: 200px;
+    position: relative;
+    top: 20%;
+    margin-left: 16%;
+    width: 350px;
+  }
+  #H3 {
+    font-family: "gentonalight";
+    font-size: 24px;
+  
+    color: #000;
+  }
+  #paragraph {
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+    margin-top: 12px;
+    max-width: 320px;
+    font-family: "gentonamedium";
+    font-weight: 600;
+  }
+  #DIV_1 {
+    height: 200px;
+    width: 650px;
+    position: relative;
+    left: 46%;
+    margin-top: 0%;
+  
+    transform: skewY(2deg);
+  }
+  #img2 {
+    height: 200px;
+    width: 200px;
+    transform: skewY(0deg);
+    position: relative;
+    left: 0%;
+    top: -1%;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .container_5 {
+    height: 900px;
+  }
+  .container_5 div {
+    margin-left: 16%;
+    width: 860px;
+  }
+  .container_5 div > h2 {
+    text-align: left;
+  }
+  .container_5 div > p {
+    width: 370px;
+    margin-top: 3%;
+    font-size: 18px;
+  }
+  .container_5 #divv {
+    height: 100px;
+    width: 200px;
+    position: relative;
+    left: 32%;
+    top: -10%;
+  }
+  .container_5 #divv p {
+    width: 200px;
+  }
+  .container_5 #divv1 {
+    height: 100px;
+    width: 200px;
+    position: relative;
+    left: 50%;
+    top: -21%;
+  }
+  .container_5 #divv1 p {
+    width: 200px;
+  }
+  .container_5 #womens {
+    background-image: url(./assets/womens.png);
+  
+    height: 220px;
+    width: 420px;
+    margin-top: -10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container_5 #donation {
+    background-image: url(./assets/donating.png);
+  
+    height: 220px;
+    width: 420px;
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container_5 #mother {
+    background-image: url(./assets/mother-son.png);
+  
+    height: 459px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 35%;
+    top: -51%;
+  }
+  #HH2 {
+    padding: 0px;
+    background: none;
+    border-radius: 0px;
+    text-decoration: none;
+    letter-spacing: -0.02em;
+    color: #16aa51;
+    cursor: pointer;
+    font-size: 22px;
+    font-family: "gentonamedium";
+    margin: 53px 0px 0px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+    top: -53%;
+    left: 16%;
+  }
+  #arrow1 {
+    content: "";
+    background: url(https://s3-ap-southeast-1.amazonaws.com/ola-prod-website/green-arrow-right.svg);
+    width: 16px;
+    height: 11px;
+    display: inline-block;
+  }
+  #container_6 div {
+    transform: skewY(-2deg);
+  }
+  
+  #DIVV {
+    height: 200px;
+    position: relative;
+    top: 20%;
+    margin-left: 16%;
+    width: 350px;
+    transform: skewY(-2deg);
+  }
+  #H33 {
+    font-family: "gentonalight";
+    font-size: 24px;
+    transform: skewY(2deg);
+    color: #000;
+  }
+  #paragraph1 {
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+    margin-top: 12px;
+    max-width: 320px;
+    font-family: "gentonamedium";
+    font-weight: 600;
+    transform: skewY(2deg);
+  }
+  #DIV_11 {
+    height: 200px;
+    width: 650px;
+    position: relative;
+    left: 46%;
+    margin-top: -17%;
+  }
+  #img3 {
+    transform: skewY(2deg);
+    width: 200px;
+    height: 200px;
+    position: relative;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  #para {
+    margin-left: 10%;
+    text-align: right;
+    position: relative;
+    left: -5%;
+    margin-top: 3%;
+  }
+  .container_7 {
+    width: 100%;
+    height: 650px;
+    transform: skewY(-2deg);
+    background: rgb(242, 244, 240);
+  }
+  #Hh2 {
+    width: 70%;
+    font-size: 45px;
+    text-align: left;
+    transform: skewY(2deg);
+    position: relative;
+    top: 24%;
+    left: 12%;
+    text-shadow: 1.152px 1.152px 0 #fff, 1.728px 1.728px 0 #92c83e;
+  }
+  #big_div {
+    transform: skewY(2deg);
+    height: 350px;
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 320px 320px 320px;
+  
+    justify-content: center;
+  }
+  #big_div #div_A {
+    height: 300px;
+    width: 300px;
+    margin-top: 5%;
+  }
+  #big_div #div_A > img {
+    height: 210px;
+    width: 299px;
+  }
+  
+  .container_8 {
+    position: relative;
+    top: 20%;
+    height: 600px;
+  }
+  #Hh3 {
+    width: 35%;
+    font-size: 45px;
+    text-align: left;
+    position: relative;
+    left: 12%;
+    color: #000;
+  }
+  .container_8 #ola_1 {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    left: 12%;
+    top: 5%;
+    background: radial-gradient(100% 100% at 28.66% 0%, #f9fcf4 0%, #e0e6d8 100%);
+  }
+  .container_8 #ola_2 {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    left: 40%;
+    top: -45.3%;
+    background: radial-gradient(100% 100% at 28.66% 0%, #f9fcf4 0%, #e0e6d8 100%);
+  }
+  
+  .container_8 #ola_1 > img {
+    padding-top: 10%;
+    padding-left: 10%;
+  }
+  .container_8 #ola_2 > img {
+    padding-top: 10%;
+    padding-left: 10%;
+  }
+  #arrow3 {
+    content: "";
+    background: url(https://s3-ap-southeast-1.amazonaws.com/ola-prod-website/green-arrow-right.svg);
+    width: 16px;
+    height: 11px;
+    display: inline-block;
+    margin-left: 50%;
+  }
+  #arrow4 {
+    content: "";
+    background: url(https://s3-ap-southeast-1.amazonaws.com/ola-prod-website/green-arrow-right.svg);
+    width: 16px;
+    height: 11px;
+    display: inline-block;
+    margin-left: 30%;
+  }
+  footer {
+    height: 500px;
+    background: #f2f4f6;
+    clip-path: polygon(0 11%, 100% 0%, 100% 100%, 0 100%);
+  }
+  #footer_content {
+    height: 400px;
+    position: relative;
+    top: 18%;
+  }
+  #footer_content #social {
+    height: 110px;
+    width: 180px;
+    position: relative;
+    left: 10%;
+    top: 10%;
+  }
+  #footer_content #social > img {
+    padding: 10%;
+    margin-left: -8%;
+  }
+  .container_9 {
+    display: flex;
+    justify-content: start;
+  
+    gap: 10%;
+  
+    height: 250px;
+    width: 700px;
+    position: relative;
+    left: 28%;
+    top: -18%;
+  }
+  .container_9 div {
+    height: 215px;
+  }
+  
+  .container_9 div > ul {
+    width: 100px;
+  
+    list-style: none;
+    padding: 5%;
+    padding: 0px;
+    background: none;
+    border-radius: 0px;
+    font-size: 16px;
+    line-height: 35px;
+    color: #000000;
+  }
+  h5 {
+    font-weight: 100;
+    margin-left: 5%;
+  }
+  #foot {
+    display: flex;
+    justify-content: space-between;
+  
+    width: 400px;
+    position: relative;
+    left: 60%;
+    margin-top: -1%;
+  }
+  
